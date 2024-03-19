@@ -1,3 +1,10 @@
+const path = require('path');
+
 module.exports = {
-    preset: 'babel-jest',
-  };
+    preset: path.resolve(__dirname, 'jest-preset.js'),
+};
+
+
+
+
+
